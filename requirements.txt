@@ -1,0 +1,8 @@
+# Runtime + test dependencies for the offline suite.
+# Nothing here talks to a network. No API key is required to run the suite.
+PyYAML>=6.0
+pytest>=8.0
+
+# Optional: only needed for the live Anthropic adapter (`--adapter anthropic`).
+# Install with:  pip install anthropic
+# anthropic>=0.40.0

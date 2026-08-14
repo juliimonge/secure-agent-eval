@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.DS_Store
+
+# Run artifacts. The committed sample lives in results/sample/.
+results/*.json
+results/*.jsonl
+results/*.md
+!results/sample/
+
+# Secrets never go in git.
+.env
+.env.local
