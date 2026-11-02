@@ -75,7 +75,7 @@ class MyAdapter(ModelAdapter):
 ```
 
 Everything above the adapter is provider-agnostic.
-`adapters/anthropic_adapter.py` is a ~60-line reference implementation.
+`secure_agent_eval/adapters/anthropic_adapter.py` is a ~60-line reference implementation.
 
 ```bash
 pip install anthropic && export ANTHROPIC_API_KEY=...
